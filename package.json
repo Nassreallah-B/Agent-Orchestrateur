@@ -1,0 +1,22 @@
+{
+  "name": "agent-blueprint",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "tsx src/cli.ts",
+    "dev:mock": "tsx src/cli.ts --mock",
+    "dev:hf": "tsx src/cli.ts --huggingface",
+    "build": "tsc -p tsconfig.json",
+    "test": "tsx --test tests/*.test.ts",
+    "start": "node dist/cli.js",
+    "mcp:demo": "tsx src/mcp/demoServer.ts --stdio"
+  },
+  "dependencies": {
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
