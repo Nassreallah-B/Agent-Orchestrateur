@@ -1,4 +1,4 @@
-# Blueprint pour recreer un systeme d'agents similaire
+# Blueprint pour recreer un systeme d'agents similaire à claude code
 
 Ce dossier fournit un plan et un squelette TypeScript pour reconstruire, dans ta propre IA, un systeme d'agents proche de celui observe dans ce snapshot.
 
